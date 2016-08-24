@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)buttonClick:(id)sender;
 
 @end
 
@@ -26,4 +27,7 @@
 }
 
 
+- (IBAction)buttonClick:(id)sender {
+    NSLog(@"Hello world!");
+}
 @end
